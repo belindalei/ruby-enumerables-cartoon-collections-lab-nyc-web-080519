@@ -14,8 +14,11 @@ def long_planeteer_calls(array)
       return false 
   end 
   
-  for (i = 0; i < 5; i++) {
-    
+  for (i = 0; i < array.length; i++) {
+    if array[i] > 4 
+      return true 
+    else
+      return false 
   }
 
 
