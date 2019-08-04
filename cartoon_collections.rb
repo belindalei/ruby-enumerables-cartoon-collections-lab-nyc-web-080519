@@ -19,7 +19,7 @@ end
 
 def find_the_cheese(array)
   
-  array.
+  cheese_types.inclu
   if array[i] == cheese_types[0] || array[i] == cheese_types[1] || array[i] == cheese_types [2]
     return array[i]
   end 
