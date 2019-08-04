@@ -15,7 +15,7 @@ def long_planeteer_calls(array)
   return false 
 end 
 
-#Given an array of strings (cheese_types), identify the same exact strings in another array and print out that string 
+#Given an array of strings (cheese_types), identify the first matching string in another array and print out that string 
 
 def find_the_cheese(array)
   # the array below is here to help
