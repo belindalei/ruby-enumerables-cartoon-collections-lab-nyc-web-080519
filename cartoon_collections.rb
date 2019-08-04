@@ -10,22 +10,9 @@ def long_planeteer_calls(array)
   array.each do |i|
     if i.length > 4 
       return true 
-    else 
-      return false 
   end 
-  
-  for (i = 0; i < array.length; i++) {
-    if array[i] > 4 
-      return true 
-    else
-      return false 
-  }
-
-
-
-  
-  { |words| words.any? {|i| i.size > 4}}
-end
+  return false 
+end 
 
 def find_the_cheese# code an argument here
   # the array below is here to help
