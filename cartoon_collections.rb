@@ -24,4 +24,5 @@ def find_the_cheese(array)
       return word 
     end 
   end 
+  nil 
 end
