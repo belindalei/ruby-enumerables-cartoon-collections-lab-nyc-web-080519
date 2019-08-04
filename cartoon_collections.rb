@@ -15,7 +15,8 @@ def long_planeteer_calls(array)
   return false 
 end 
 
-#find the cheese string in the cheese_types array amongst the array of random strings
+#Given an array of strings (cheese_types), identify the same exact strings in another array and print out that string 
+
 def find_the_cheese(array)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
