@@ -13,6 +13,10 @@ def long_planeteer_calls(array)
     else 
       return false 
   end 
+  
+  for (i = 0; i < 5; i++) {
+    
+  }
 
 
 
