@@ -18,6 +18,9 @@ end
 #Given an array of strings (cheese_types), identify the first matching string in another array and print out that string 
 
 def find_the_cheese(array)
-  # the array below is here to help
+  
+  if array[i] == cheese_types[0] || array[i] == cheese_types[1] || array[i] == cheese_types [2]
+    re
+  
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
