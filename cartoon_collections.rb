@@ -18,7 +18,7 @@ end
 #Given an array of strings (cheese_types), identify the first matching string in another array and return that string 
 
 def find_the_cheese(array)
-  
+  array.find do 
   
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
