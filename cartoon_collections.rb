@@ -15,12 +15,14 @@ def long_planeteer_calls(array)
   return false 
 end 
 
-#Given an array of strings (cheese_types), identify the first matching string in another array and print out that string 
+#Given an array of strings (cheese_types), identify the first matching string in another array and return that string 
 
 def find_the_cheese(array)
   
+  array.
   if array[i] == cheese_types[0] || array[i] == cheese_types[1] || array[i] == cheese_types [2]
-    re
+    return array[i]
+  end 
   
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
