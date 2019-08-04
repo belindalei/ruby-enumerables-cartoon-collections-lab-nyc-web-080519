@@ -18,9 +18,10 @@ end
 #Given an array of strings (cheese_types), identify the first matching string in another array and return that string 
 
 def find_the_cheese(array)
-  array.each do 
+  cheese_types = ["cheddar", "gouda", "camembert"]
+  array.each do |word|
+    
   
   end 
   
-  cheese_types = ["cheddar", "gouda", "camembert"]
 end
